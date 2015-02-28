@@ -7,6 +7,8 @@ window.Application = {
   init: function () {
     new Application.Routers.SimpleRouter();
     Backbone.history.start();
+
+    React.render(new Phone(), document.getElementById('phone'));
   }
 }
 

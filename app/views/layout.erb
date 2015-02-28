@@ -3,14 +3,21 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
     <title>Talkdesk Challenge</title>
+    <script src="http://fb.me/react-with-addons-0.12.2.min.js"></script>
+    <script src="http://fb.me/JSXTransformer-0.12.2.js"></script>
 
     <%= css :app %>
     <%= js  :app %>
+    <script type="text/javascript"
+src="//static.twilio.com/libs/twiliojs/1.2/twilio.min.js"></script>
+    <script type="text/javascript">
+
+    Twilio.Device.setup("<%= token %>", {debug: true});
+
+    </script>
   </head>
 <body>
-  <div class="container">
-
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top -no-margin" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -29,10 +36,13 @@
         </div>
       </div>
     </nav>
-
-    <div id="content" />
-
+  <div class="phone-bar">
+      <div id="phone"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="content" class="col-xs-12"></div>
+    </div>
   </div>
 </body>
 </html>
-

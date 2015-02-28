@@ -1,0 +1,13 @@
+
+# twilio_account_sid: 'ACe549cbaaa54afefd37f9ff8d209f7330'
+# twilio_auth_token: 'f5d3c6f64fca72fb82af2350d4f01f25'
+# twilio_app_sid: 'AP57ffab5eb7ff4a54b918f2bfe616e624'
+# twilio_client_name: '+351308806405'
+# twilio_caller_id: '+351308806405'
+
+# Talkdesk credentials
+twilio_account_sid: 'AC73f99b37c1f9419cae8701caf816719f'
+twilio_auth_token: 'e226d7512f1c9e676a2806b874da4811'
+twilio_app_sid: 'APc32750f75df9a7387c3d9dfa055dbbf1'
+twilio_client_name: 'nuno'
+twilio_caller_id: '+19804042761'

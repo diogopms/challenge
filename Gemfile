@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'sinatra-assetpack'
 gem 'sinatra-backbone'
+gem 'sinatra-contrib'
+
+gem 'twilio-ruby'
 
 group :development, :test do
   gem 'rspec'

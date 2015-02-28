@@ -1,4 +1,62 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+}
+
 html {
   margin: 0;
 }
 
+.navbar.-no-margin {
+    margin-bottom: 0;
+}
+
+.container {
+  margin-top: 130px;
+}
+
+.phone-bar {
+    height: 60px;
+    background: #FCFCFC;
+    padding-top: 10px;
+    padding-right: 10px;
+    position: fixed;
+    top: 51px;
+    z-index: 130;
+    width: 100%;
+}
+
+.phone-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-call {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    background: #ddd;
+}
+
+.btn-call:focus, .btn-call:active, .btn-call:visited {
+    outline: none;
+}
+
+.call-actions {
+    display: none;
+}
+
+.call-actions.-open {
+    display: inline-block;
+}
+
+.-inline {
+  display: inline-block;
+}
